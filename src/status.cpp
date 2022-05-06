@@ -8,7 +8,7 @@
 extern struct dataSet myData;
 
 void statusThread() {
-    DigitalOut statusLed(P13_7);
+    DigitalOut statusLed((P13_7);
     while (true) {
         
         statusLed = !statusLed;
@@ -17,3 +17,4 @@ void statusThread() {
 
     }
 }
+;}

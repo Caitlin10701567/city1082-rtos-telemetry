@@ -32,7 +32,7 @@ void displaySendUpdateSensor(int topic, float reading) {
 
 void displayThread(void)
 {
-    cout << "\033c" ;  // Reset terminal
+    std::cout << "\033c" ;  // Reset terminal
     ThisThread::sleep_for(500ms);
     cout << "\033)A";  // Select UK Character Set
     ThisThread::sleep_for(100ms);

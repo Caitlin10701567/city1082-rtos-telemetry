@@ -1,6 +1,5 @@
 #ifndef DISPLAY_H
 #define DISPLAY_H
-
 #define TEMP 0
 #define TEMP_LOW_THRESH 1
 #define TEMP_HIGH_THRESH 2
@@ -15,20 +14,17 @@
 #define HUMID_LOW_THRESH 21
 #define HUMID_HIGH_THRESH 22
 #define HUMID_SET_VALUE 23
-
 struct dataSet{
     float temperature;
     float tempSet = 24;
     float tempThresh = 0.5;
     bool heaterStatus = false;
     float lightLevel;
-    float lightSet = 40;
+    float lightSet= 40;
     float lightThresh = 5;
     bool lightStatus = false;
 };
 
 void displayThread();
 void displaySendUpdateSensor(int, float);
-
-
 #endif

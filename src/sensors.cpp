@@ -23,8 +23,8 @@
 
 #define LDR_PORT    P10_4
 
-AnalogIn tempVoltage(THERM_OUT);
-AnalogIn lightLevel(LDR_PORT);
+AnalogIn tempVoltage(P10_1);
+AnalogIn lightLevel(P10_4);
 
 extern struct dataSet myData;
 extern bool displayUp;

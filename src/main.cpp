@@ -11,7 +11,7 @@
 #include "status.h"
 #include "actuators.h"
 
-// This is my version of main.cpp Andrew
+// This is my version of main.cpp Caitlin
 
 // Global data packet
 
